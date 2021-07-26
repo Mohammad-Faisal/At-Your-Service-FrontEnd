@@ -18,10 +18,6 @@ const serviceReducer = createReducer(initialState, {
     [ActionUtility.getFulfilledAction(ServiceAction.GET_DETAILS)]: (state, action) => {
         state.details = action.payload.data;
     },
-    //
-    // [ServiceAction.SET_SITE_DATA_FOR_EDIT]:(state , action) => {
-    //     state.siteForEdit= action.payload
-    // },
 });
 
 export default serviceReducer;

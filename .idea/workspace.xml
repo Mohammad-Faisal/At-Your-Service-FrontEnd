@@ -5,71 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b3aeea-a3e2-4423-aec4-8cebbfdd6a29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/user/request-models/GetUsersRequest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/common-components/layout/TableTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/PageSuperAdmin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/home/ModalServiceDetails.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/home/ServiceProviderDetails.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/home/hooks/useGetServiceProviderDetails.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/order/TableOrders.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/order/TableReviews.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/user/TableUsers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/forms/FormInputPassword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../toptal-assignment-backend" beforeDir="false" afterPath="$PROJECT_DIR$/../toptal-assignment-backend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/ApiEndpoints.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ApiEndpoints.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/order/OrderAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/order/OrderAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/order/OrderEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/order/OrderEffect.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/order/OrderReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/order/OrderReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/order/OrderSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/order/OrderSelector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/order/requests/GetOrdersRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/order/requests/GetOrdersRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/service/ServiceAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/service/ServiceAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/service/ServiceEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/service/ServiceEffect.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/service/ServiceReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/service/ServiceReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/service/ServiceSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/service/ServiceSelector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/service/requests/CreateServiceRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/service/requests/CreateServiceRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/service/requests/UpdateServiceRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/service/requests/UpdateServiceRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/UserAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/UserAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/UserEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/UserEffect.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/UserReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/UserReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/user/UserSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/UserSelector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/utils/BaseRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/utils/BaseRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/utils/EffectUtility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/utils/EffectUtility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/utils/HttpUtility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/utils/HttpUtility.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/utils/ActionUtility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/utils/ActionUtility.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/buttons/ButtonFormSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/common-components/buttons/ButtonFormSubmit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/common-components/loader/LoadingIndicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/common-components/loader/LoadingIndicator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/common-components/navigation/Topbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/common-components/navigation/Topbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/FormSignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/user/FormSignIn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/FormSignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/user/FormSignUp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/FormInputRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/FormInputRadio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/FormInputSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/FormInputSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/FormInputText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/FormInputText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/FormInputTextArea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/FormInputTextArea.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/FormValidationConstants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/FormValidationConstants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/SelectionItemModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/SelectionItemModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/forms/common/useFormInputValidation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/forms/useFormInputValidation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/modals/ModalAuthentication.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/user/ModalAuthentication.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/modals/ModalDeleteConfirmation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/common-components/modals/ModalDeleteConfirmation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/PageGeneralUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/PageGeneralUser.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/PageServiceProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/PageServiceProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/home/FormFilterService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/home/FormFilterService.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/pages/home/IndividualService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/home/IndividualService.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/order/FormGiveOrderReview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/order/FormGiveOrderReview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/order/ModalReviewOrder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/order/ModalReviewOrder.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/order/OrdersTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/order/FinishedOrdersTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/order/PageOrderManagement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/order/PageOrderManagement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/service/FormCreateService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/service/FormCreateService.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/service/FormDeleteService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/service/FormUpdateService.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/service/ModalEditForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/service/ModalEditForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/service/PageServiceManagement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/service/PageServiceManagement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/service/TableService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/service/TableServices.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/tables/AuditLogTable.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/tables/SiteTable.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/user/FormSignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/user/FormSignIn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/user/FormSignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/user/FormSignUp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +35,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1toANZdYeuotbGbzCoHNfkZndMR" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -99,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/pages/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/forms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/forms" />
       <recent name="$PROJECT_DIR$/src/views/pages/order" />
       <recent name="$PROJECT_DIR$/src/views/pages" />
       <recent name="$PROJECT_DIR$/src/store/user/request-models" />
       <recent name="$PROJECT_DIR$/src/views/pages/home/images" />
-      <recent name="$PROJECT_DIR$/src/store/service/requests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/views/common-components" />

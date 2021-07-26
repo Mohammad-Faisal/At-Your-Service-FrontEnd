@@ -14,6 +14,7 @@ import { SignUpInput, SignUpRequest } from '../../../store/user/request-models/S
 import { UserType } from '../../../constants/GeneralConstants';
 import { FormInputRadio, RadioTypes } from '../../forms/FormInputRadio';
 import { Form } from 'antd';
+import { FormInputPassword } from '../../forms/FormInputPassword';
 
 const INITIAL_STATE: SignUpInput = {
     name: '',
@@ -42,9 +43,8 @@ export const FormSignUp: FC = () => {
         // <FormBasicContainer>
         <Form layout={'vertical'}>
             <FormInputText label={t('form_input_label.name')} control={control} name={'name'} />
-
             <FormInputText label={t('form_input_label.email')} control={control} name={'email'} />
-            <FormInputText label={t('form_input_label.password')} control={control} name={'password'} />
+            <FormInputPassword label={t('form_input_label.password')} control={control} name={'password'} />
             <FormInputRadio label={'User Type'} control={control} name={'type'} type={RadioTypes.USER_TYPE} />
             <ButtonFormSubmit title={t('sign_up_title')} isRequesting={isRequesting} control={control} onSubmit={onSubmit} />
         </Form>

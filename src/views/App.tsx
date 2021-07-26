@@ -13,12 +13,11 @@ import { PageServiceProvider } from './pages/PageServiceProvider';
 import { PageHome } from './pages/home/PageHome';
 import { Switch, useHistory } from 'react-router-dom';
 import { PageSuperAdmin } from './pages/PageSuperAdmin';
-import { TableUsers } from './pages/user/TableUsers';
-import { QueryClient } from 'react-query';
 
 const App: FC = () => {
     const userType = useSelector(selectLoggedInUserType);
     const history = useHistory();
+
     useEffect(() => {
         if (userType === UserType.SERVICE_PROVIDER) history.push('/services');
         else if (userType === UserType.SUPER_ADMIN) history.push('/users');

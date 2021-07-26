@@ -13,6 +13,7 @@ import { SignInInputs, SignInRequest } from '../../../store/user/request-models/
 import { AnyObjectSchema } from 'yup';
 import { selectFinished } from '../../../store/misc/finished/FinishedSelector';
 import { Form } from 'antd';
+import { FormInputPassword } from '../../forms/FormInputPassword';
 
 const INITIAL_STATE: SignInInputs = {
     email: '',
@@ -41,7 +42,7 @@ export const FormSignIn: FC = () => {
     return (
         <Form layout={'vertical'}>
             <FormInputText label={t('form_input_label.email')} control={control} name={'email'} />
-            <FormInputText label={t('form_input_label.password')} control={control} name={'password'} />
+            <FormInputPassword label={t('form_input_label.password')} control={control} name={'password'} />
             <ButtonFormSubmit title={t('sign_in_title')} isRequesting={isRequesting} control={control} onSubmit={onSubmit} />
         </Form>
     );
